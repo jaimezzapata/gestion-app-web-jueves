@@ -1,0 +1,20 @@
+{
+    "usuarios": [
+        {
+            "id": "1",
+            "documento": 1020304050,
+            "nombre": "Jaime Zapata",
+            "usuario": "admin",
+            "contrasena": "123456"
+        },
+        {
+            "id": "2",
+            "documento": 1020304050,
+            "nombre": "Jaime Zapata",
+            "usuario": "admin",
+            "contrasena": "123456"
+        }
+    ],
+    "productos": [],
+    "servicios": []
+}
