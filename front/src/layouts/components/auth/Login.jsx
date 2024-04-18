@@ -10,16 +10,21 @@ const Login = () => {
         redireccion("/home")
     }
     return (
-        <form>
-            <section>
-                <input onChange={(e) => { setUsuario(e.target.value) }} placeholder='Usuario' type="text" />
-                <input onChange={(e) => { setContrasena(e.target.value) }} placeholder='Contraseña' type="text" />
-            </section>
-            <section>
-                <button type='button'>Iniciar Sesión</button>
-                <button type='button'>Crear Cuenta</button>
-            </section>
-        </form>
+
+        <div className="login-container">
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <div className="form-group">
+                    <label>Email</label>
+                    <input onChange={(e) => { setUsuario(e.target.value) }} placeholder='Usuario' type="text" />
+                </div>
+                <div className="form-group">
+                    <label>Contraseña</label>
+                    <input onChange={(e) => { setContrasena(e.target.value) }} placeholder='Contraseña' type="text" />
+                </div>
+                <button type="button">Iniciar Sesión</button>
+            </form>
+        </div>
     )
 }
 
